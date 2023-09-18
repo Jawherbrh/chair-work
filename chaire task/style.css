@@ -1,0 +1,52 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    box-sizing: border-box;
+    border-top-right-radius: 	40px;
+    border-top-left-radius: 	40px;
+    box-shadow: 10px 5px 5px 5px #aaaaaa;
+}
+.card img{
+    width:100%;
+    box-sizing: border-box;
+    border-top-right-radius: 	40px;
+    border-top-left-radius: 	40px;
+}
+.infocard.card:hover{
+    width: 400px
+}
+.infocard{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height:60px;
+    border: solid;color: gray;
+    align-items: center;
+    overflow: hidden;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 10px 5px 5px 5px #aaaaaa;
+    padding: 20px 5px;
+}
+.imgcard{
+    width: 35px;
+}
+
+.cart {
+    box-sizing: border-box ;
+    border-left:2px solid; color: gray; 
+}
+.infocard div {
+    padding:20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+}
+.chair{
+    color: black;
+    font-size: 30px;
+}
+
+
